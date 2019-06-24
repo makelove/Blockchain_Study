@@ -103,7 +103,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+build
 node_modules
-._.DS_Store
+._*
 .DS_Store
 .idea

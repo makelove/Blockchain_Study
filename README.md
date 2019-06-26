@@ -9,3 +9,7 @@
         - [以太坊智能合约开发](https://www.bilibili.com/video/av27062964/?p=5)
     - pet-shop视频讲解:
         - [宠物商店开发](https://www.bilibili.com/video/av27062964/?p=7)
+
+- 参考文档
+    - [Solidity中文文档](https://solidity-cn.readthedocs.io/zh/develop/index.html)
+    - [Solidity在线编辑器](https://remix.ethereum.org)

@@ -14,3 +14,19 @@
     - [Solidity中文文档](https://solidity-cn.readthedocs.io/zh/develop/index.html)
     - [Solidity在线编辑器](https://remix.ethereum.org)
     - [理解以太坊Gas与燃料手续费](https://ether.mochain.info/basic/ethereum/gas.html)
+
+- 在搭建私有网络前，需要下载和安装 Geth (goethereum)工具。
+
+npm install -g ganache-cli
+
+Solidity 编译器
+npm install -g solc
+
+npm install web3@0.19
+
+Mist 钱包
+
+
+
+
+为了赚钱，他们收取通常以代币形式支付的“汽油”费用。这些费用与特定智能合约所需的处理量有关。逻辑是，智能合约越复杂，处理起来越昂贵。    

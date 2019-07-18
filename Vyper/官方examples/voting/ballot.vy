@@ -1,8 +1,9 @@
+#代表团投票-加权？
 # Voting with delegation.
 
 # Information about voters
 struct Voter:
-    # weight is accumulated by delegation
+    # weight is accumulated by delegation 加权？
     weight: int128
     # if true, that person already voted (which includes voting by delegating)
     voted: bool
@@ -33,7 +34,7 @@ def delegated(addr: address) -> bool:
 
 @public
 @constant
-def directlyVoted(addr: address) -> bool:
+def directlyVoted(addr: address) -> bool: #直接投票
     return self.voters[addr].voted and (self.voters[addr].delegate == ZERO_ADDRESS)
 
 
@@ -52,7 +53,7 @@ def __init__(_proposalNames: bytes32[2]):
 # Give a `voter` the right to vote on this ballot.
 # This may only be called by the `chairperson`.
 @public
-def giveRightToVote(voter: address):
+def giveRightToVote(voter: address):#委托某人投票 ？
     # Throws if the sender is not the chairperson.
     assert msg.sender == self.chairperson
     # Throws if the voter has already voted.
@@ -101,7 +102,7 @@ def forwardWeight(delegate_with_weight_to_forward: address):
 
 # Delegate your vote to the voter `to`.
 @public
-def delegate(to: address):
+def delegate(to: address):#委托？
     # Throws if the sender has already voted
     assert not self.voters[msg.sender].voted
     # Throws if the sender tries to delegate their vote to themselves or to
@@ -119,6 +120,7 @@ def delegate(to: address):
 
 # Give your vote (including votes delegated to you)
 # to proposal `proposals[proposal].name`.
+#根据 提案 去投票
 @public
 def vote(proposal: int128):
     # can't vote twice

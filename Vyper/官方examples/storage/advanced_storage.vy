@@ -8,7 +8,7 @@ def __init__(_x: int128):
 
 @public
 def set(_x: int128):
-  assert _x >= 0 # No negative values
+  assert _x >= 0 # No negative values #不能设置负数
   assert self.storedData < 100  # Storage will lock when 100 or more is stored
   self.storedData = _x
   log.DataChange(msg.sender, _x)

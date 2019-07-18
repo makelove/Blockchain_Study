@@ -1,3 +1,4 @@
+# 做市商 准备买卖未上市股票的经纪人；从事欧洲债券二级市场交易的银行
 from vyper.interfaces import ERC20
 
 units: {
@@ -50,6 +51,7 @@ def tokensToEth(sell_quantity: uint256(currency_value)):
     self.totalTokenQty = new_total_tokens
 
 # Owner can withdraw their funds and destroy the market maker
+# 撤资
 @public
 def ownerWithdraw():
     assert self.owner == msg.sender

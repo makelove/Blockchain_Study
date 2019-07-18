@@ -1,3 +1,5 @@
+#公司股票股权上市
+
 units: {
     currency_value: "Currency Value"
 }
@@ -16,7 +18,7 @@ price: public(uint256 (wei / currency_value))
 # Store a ledger of stockholder holdings.
 holdings: map(address, uint256(currency_value))
 
-# Set up the company.
+# Set up the company.初始化公司-股票-价格
 @public
 def __init__(_company: address, _total_shares: uint256(currency_value),
         initial_price: uint256(wei / currency_value) ):
@@ -36,6 +38,7 @@ def stockAvailable() -> uint256(currency_value):
     return self.holdings[self.company]
 
 # Give some value to the company and get stock in return.
+#用以太币购买股票，获得股权
 @public
 @payable
 def buyStock():
@@ -60,12 +63,14 @@ def getHolding(_stockholder: address) -> uint256(currency_value):
     return self.holdings[_stockholder]
 
 # Return the amount the company has on hand in cash.
+#返回公司手上持有的现金总数
 @public
 @constant
 def cash() -> wei_value:
     return self.balance
 
 # Give stock back to the company and get money back as ETH.
+#把股票还给公司，取回现金-以太币
 @public
 def sellStock(sell_order: uint256(currency_value)):
     assert sell_order > 0 # Otherwise, this would fail at send() below,
@@ -86,6 +91,7 @@ def sellStock(sell_order: uint256(currency_value)):
 
 # Transfer stock from one stockholder to another. (Assume that the
 # receiver is given some compensation, but this is not enforced.)
+#转让股票
 @public
 def transferStock(receiver: address, transfer_order: uint256(currency_value)):
     assert transfer_order > 0 # This is similar to sellStock above.
@@ -114,6 +120,7 @@ def payBill(vendor: address, amount: wei_value):
     log.Pay(vendor, amount)
 
 # Return the amount in wei that a company has raised in stock offerings.
+#债券总数
 @public
 @constant
 def debt() -> wei_value:
@@ -122,6 +129,7 @@ def debt() -> wei_value:
 # Return the cash holdings minus the debt of the company.
 # The share debt or liability only is included here,
 # but of course all other liabilities can be included.
+#公司价值-市值？
 @public
 @constant
 def worth() -> wei_value:

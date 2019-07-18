@@ -14,6 +14,8 @@
     - [Solidity中文文档](https://solidity-cn.readthedocs.io/zh/develop/index.html)
     - [Solidity在线编辑器](https://remix.ethereum.org)
     - [理解以太坊Gas与燃料手续费](https://ether.mochain.info/basic/ethereum/gas.html)
+    - [MyEtherWallet + Remix 使用byteCode部署带参数的合约](https://www.jianshu.com/p/0e68faf21cd4)
+    - [以太坊钱包](https://www.myetherwallet.com/)
 
 - 在搭建私有网络前，需要下载和安装 Geth (goethereum)工具。
 

@@ -122,9 +122,9 @@ AttributeDict({'transactionHash': HexBytes('0xe275c6289ae77f9c2cc057a8bcc1c44963
  's': '0x1551a2079b6c03ecbed48d656a37bac4116edec6cc13b876b3cc25d4d269da56'})
 
 In [14]: greeter = w3.eth.contract(
-    ...:     address=tx_receipt.contractAddress,
-    ...:     abi=abi,
-    ...: )
+            address=tx_receipt.contractAddress,
+            abi=abi,
+         )
 
 In [15]: greeter
 Out[15]: <web3.utils.datatypes.Contract at 0x10be246d8>

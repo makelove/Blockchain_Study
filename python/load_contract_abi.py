@@ -59,7 +59,7 @@ abi=json.loads('''[
       "type": "function"
     }
   ]''')
-address="0xB4fBFD01ce71440e03efce5F98b23A011DBFB19D"
+address="0xB4fBFD01ce71440e03efce5F98b23A011DBFB19D"#从metamask复制【账号1】的地址
 contract=web3.eth.contract(address=address,abi=abi)
 contract
 contract.address

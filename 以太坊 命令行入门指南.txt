@@ -1,0 +1,57 @@
+以太坊 命令行入门指南，安装
+
+1.安装geth https://geth.ethereum.org/downloads/
+geth是什么？Official Go implementation of the Ethereum protocol
+Geth 是使用 Go 语言编写的命令行工具，可以使用它在私有网络上创建节点和矿工。
+geth是真正的以太坊环境，可以挖矿
+
+下载 
+验证，防止被中间人攻击
+(.py3) pro:Downloads play$ md5 geth-darwin-amd64-1.9.0-52f24617.tar.gz
+MD5 (geth-darwin-amd64-1.9.0-52f24617.tar.gz) = c721e94df7b3746fe0d756fc6d1feba9
+
+解压
+复制到bin目录
+命令行直接输入geth
+在输入geth后， geth会连接到主网上，然后开始同步和下载区块和交易数据 。 目前，整个以太坊区块已经超过 1TB
+
+Writing default main-net genesis block
+
+Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000  Petersburg: 7280000 Engine: ethash}"
+
+看输出什么
+
+2.安装ganache-cli
+ganache是什么？
+ganache-cli 包含了以太坊的交易处理流程和挖矿功能，但挖矿时不需要 竞赛，交易产生后就会立即 写入账本 。 
+对于开发者来说 ， 使用 ganache-cli 可以 作为 以太坊节点，不需要挖矿交易就可 以写人账本 。
+本地模拟环境-用来测试
+
+npm install -g ganache-cli
+运行ganache-cli
+Ganache CLI v6.4.5 (ganache-core: 2.5.7)
+默认创建了 10个账户，每个账户有 100个以太币
+
+跟ganache有GUI，有什么区别？
+
+
+3.mist 已经失效，使用MetaMask即可
+钱包
+
+4.remix
+solidity智能合约的开发环境
+
+在线编程和编译
+http://remix.ethereum.org
+使用旧版
+
+本地安装
+npm install -g remix-ide 
+运行remix-ide
+
+truffle 开发框架
+npm install -g truffle
+
+
+npm install -g solc
+npm install -g web3

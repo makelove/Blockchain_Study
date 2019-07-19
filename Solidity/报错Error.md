@@ -14,3 +14,11 @@ module.exports = {
   }
 }
 ```	
+- 然后再 truffle compile
+```
+Warning: Both truffle-config.js and truffle.js were found. Using truffle-config.js.
+
+Compiling your contracts...
+===========================
+⠏ Downloading compiler. Attempt #1
+```

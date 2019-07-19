@@ -5,6 +5,7 @@
 		- 感觉不错
 	- 1
 
+- 版本号
 ```
 (.py3) pro:truffle_hellow play$ truffle version
 Truffle v5.0.24 (core: 5.0.24)

@@ -1,4 +1,13 @@
 
+- 参考
+    - [HyperLedger Fabric开发实战：快速掌握区块链技术](https://www.cnblogs.com/aberic/category/1148898.html)
+        - 京东购买 https://item.jd.com/12381034.html
+            - 想要PDF吗？
+    - 官网 https://github.com/hyperledger/fabric
+        - 安装文档 https://hyperledger-fabric.readthedocs.io/en/latest/install.html
+
+## [Hyperledger Fabric 1.0 从零开始（四）——Fabric源码及镜像文件处理](https://www.cnblogs.com/aberic/p/7532114.html)
+
 - 获取fabric SDK
 ```shell script
 (.py3) localhost:~ play$ go get github.com/hyperledger/fabric
@@ -13,6 +22,8 @@ Your branch is up to date with 'origin/release-1.4'.
 nothing to commit, working tree clean
 (.py3) localhost:fabric play$ ls examples/
 .              ..             chaincode      cluster        configtxupdate events         plugins
+
+#不需要
 (.py3) localhost:fabric play$ git checkout -b v1.1.0
 Switched to a new branch 'v1.1.0'
 (.py3) localhost:fabric play$ git status
@@ -20,6 +31,7 @@ On branch v1.1.0
 nothing to commit, working tree clean
 
 ```
+- 最新 git checkout -b v1.4
 
 - 拉取 docker镜像
 ```shell script

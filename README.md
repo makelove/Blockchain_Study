@@ -1,6 +1,11 @@
 # [Blockchain_Study](https://github.com/makelove/Blockchain_Study)
 学习区块链
 
+- 更新
+    - 2019-11-06
+        - 开始使用Go语言开发【超级账本fabric】
+            - 以太坊太弱了，不现实。
+
 - 我做的视频教程
     - [区块链-以太坊快速入门](https://www.bilibili.com/video/av56674737/)
 

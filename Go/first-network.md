@@ -114,37 +114,7 @@ e079af1db8be        hyperledger/fabric-tools:latest     "/bin/bash"             
 20abaae34445        hyperledger/fabric-peer:latest      "peer node start"        7 seconds ago       Up 2 seconds                0.0.0.0:8051->8051/tcp     peer1.org1.example.com
 85a9bbaf27e9        hyperledger/fabric-peer:latest      "peer node start"        7 seconds ago       Up 2 seconds                0.0.0.0:9051->9051/tcp     peer0.org2.example.com
 3d74742737c4        hyperledger/fabric-orderer:latest   "orderer"                7 seconds ago       Up 4 seconds                0.0.0.0:7050->7050/tcp     orderer.example.com
-fa2e79396a14        luminati/luminati-proxy             "docker-entrypoint.s…"   2 months ago        Exited (0) 2 months ago                                keen_albattani
-e758b16f3950        luminati/luminati-proxy             "docker-entrypoint.s…"   2 months ago        Exited (0) 2 months ago                                sleepy_hugle
-ca5d83f77f55        luminati/luminati-proxy             "docker-entrypoint.s…"   2 months ago        Exited (0) 2 months ago                                vibrant_lewin
-3077fa03eb37        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (0) 2 months ago                                laughing_volhard
-2d1d42e229ad        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (130) 2 months ago                              hardcore_davinci
-623e3c0f3f13        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (0) 2 months ago                                relaxed_feistel
-8daf10cc8f6a        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (255) 2 months ago                              quirky_clarke
-cefe8c9e9691        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (255) 2 months ago                              nifty_brahmagupta
-12392dd48a98        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (1) 2 months ago                                inspiring_hopper
-92f01b9f4cc9        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (0) 2 months ago                                cranky_borg
-057903b6d3f3        python:3.6                          "/bin/bash"              2 months ago        Exited (0) 2 months ago                                unruffled_haslett
-80d158dfb14a        python:3.6                          "/bin/bash"              2 months ago        Exited (130) 2 months ago                              serene_villani
-a2d2e7fa66e1        python:3.6                          "/bin/bash"              2 months ago        Created                                                loving_brattain
-3fcbfd8a2069        python:3.6                          "/bin/bash"              2 months ago        Exited (130) 2 months ago                              inspiring_ptolemy
-450782598a7b        python:3.6                          "/bin/bash"              2 months ago        Exited (1) 2 months ago                                heuristic_nobel
-fa354ed76287        python:3.6                          "/bin/bash"              2 months ago        Exited (0) 2 months ago                                naughty_colden
-349d1bbfcda8        python:3.6                          "/bin/bash"              2 months ago        Exited (0) 2 months ago                                blissful_lamport
-22aa18eeb401        ubuntu:18.04                        "/bin/bash"              4 months ago        Exited (1) 4 months ago                                relaxed_darwin
-42051141b161        d45f06cca8d7                        "bash"                   4 months ago        Exited (255) 4 months ago                              wonderful_wu
-9ea12ba9408a        d45f06cca8d7                        "bash"                   4 months ago        Exited (255) 4 months ago                              practical_torvalds
-52374b3bacd1        d45f06cca8d7                        "bash"                   4 months ago        Exited (130) 4 months ago                              jovial_mayer
-a652ca7b3cdd        d45f06cca8d7                        "bash"                   4 months ago        Exited (0) 4 months ago                                hardcore_pasteur
-9b85fe3817ab        d45f06cca8d7                        "bash"                   4 months ago        Exited (2) 4 months ago                                admiring_cori
-59c7bb012917        d45f06cca8d7                        "bash"                   4 months ago        Exited (0) 4 months ago                                hungry_mayer
-52905f08ef53        d45f06cca8d7                        "bash"                   4 months ago        Exited (0) 4 months ago                                peaceful_banach
-66f3c7956990        ubuntu:18.04                        "/bin/bash"              4 months ago        Exited (0) 4 months ago                                bt
-602179fa8bb8        ubuntu:18.04                        "--name bt"              4 months ago        Created                                                zen_hawking
-351370b3f4c5        ubuntu:18.04                        "/bin/bash"              4 months ago        Exited (127) 4 months ago                              fervent_sanderson
-fa2731eed383        ubuntu:18.04                        "/bin/bash"              4 months ago        Exited (255) 4 months ago                              gracious_payne
-67b406ba52e3        python:3.6                          "python3"                4 months ago        Exited (0) 4 months ago                                naughty_agnesi
-5f161f620599        ubuntu:18.04                        "/bin/bash"              4 months ago        Exited (127) 4 months ago                              practical_murdock
+
 
  ____    _____      _      ____    _____
 / ___|  |_   _|    / \    |  _ \  |_   _|
@@ -339,37 +309,7 @@ d6ad22ef018e        hyperledger/fabric-tools:latest     "/bin/bash"             
 d6f7d7db321b        hyperledger/fabric-peer:latest      "peer node start"        5 seconds ago       Up 2 seconds                0.0.0.0:10051->10051/tcp   peer1.org2.example.com
 2110e1d48596        hyperledger/fabric-peer:latest      "peer node start"        5 seconds ago       Up 2 seconds                0.0.0.0:7051->7051/tcp     peer0.org1.example.com
 2f6ea0f773b3        hyperledger/fabric-peer:latest      "peer node start"        5 seconds ago       Up 2 seconds                0.0.0.0:9051->9051/tcp     peer0.org2.example.com
-fa2e79396a14        luminati/luminati-proxy             "docker-entrypoint.s…"   2 months ago        Exited (0) 2 months ago                                keen_albattani
-e758b16f3950        luminati/luminati-proxy             "docker-entrypoint.s…"   2 months ago        Exited (0) 2 months ago                                sleepy_hugle
-ca5d83f77f55        luminati/luminati-proxy             "docker-entrypoint.s…"   2 months ago        Exited (0) 2 months ago                                vibrant_lewin
-3077fa03eb37        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (0) 2 months ago                                laughing_volhard
-2d1d42e229ad        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (130) 2 months ago                              hardcore_davinci
-623e3c0f3f13        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (0) 2 months ago                                relaxed_feistel
-8daf10cc8f6a        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (255) 2 months ago                              quirky_clarke
-cefe8c9e9691        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (255) 2 months ago                              nifty_brahmagupta
-12392dd48a98        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (1) 2 months ago                                inspiring_hopper
-92f01b9f4cc9        pyppeteer:v1                        "/bin/bash"              2 months ago        Exited (0) 2 months ago                                cranky_borg
-057903b6d3f3        python:3.6                          "/bin/bash"              2 months ago        Exited (0) 2 months ago                                unruffled_haslett
-80d158dfb14a        python:3.6                          "/bin/bash"              2 months ago        Exited (130) 2 months ago                              serene_villani
-a2d2e7fa66e1        python:3.6                          "/bin/bash"              2 months ago        Created                                                loving_brattain
-3fcbfd8a2069        python:3.6                          "/bin/bash"              2 months ago        Exited (130) 2 months ago                              inspiring_ptolemy
-450782598a7b        python:3.6                          "/bin/bash"              2 months ago        Exited (1) 2 months ago                                heuristic_nobel
-fa354ed76287        python:3.6                          "/bin/bash"              2 months ago        Exited (0) 2 months ago                                naughty_colden
-349d1bbfcda8        python:3.6                          "/bin/bash"              2 months ago        Exited (0) 2 months ago                                blissful_lamport
-22aa18eeb401        ubuntu:18.04                        "/bin/bash"              4 months ago        Exited (1) 4 months ago                                relaxed_darwin
-42051141b161        d45f06cca8d7                        "bash"                   4 months ago        Exited (255) 4 months ago                              wonderful_wu
-9ea12ba9408a        d45f06cca8d7                        "bash"                   4 months ago        Exited (255) 4 months ago                              practical_torvalds
-52374b3bacd1        d45f06cca8d7                        "bash"                   4 months ago        Exited (130) 4 months ago                              jovial_mayer
-a652ca7b3cdd        d45f06cca8d7                        "bash"                   4 months ago        Exited (0) 4 months ago                                hardcore_pasteur
-9b85fe3817ab        d45f06cca8d7                        "bash"                   4 months ago        Exited (2) 4 months ago                                admiring_cori
-59c7bb012917        d45f06cca8d7                        "bash"                   4 months ago        Exited (0) 4 months ago                                hungry_mayer
-52905f08ef53        d45f06cca8d7                        "bash"                   4 months ago        Exited (0) 4 months ago                                peaceful_banach
-66f3c7956990        ubuntu:18.04                        "/bin/bash"              4 months ago        Exited (0) 4 months ago                                bt
-602179fa8bb8        ubuntu:18.04                        "--name bt"              4 months ago        Created                                                zen_hawking
-351370b3f4c5        ubuntu:18.04                        "/bin/bash"              4 months ago        Exited (127) 4 months ago                              fervent_sanderson
-fa2731eed383        ubuntu:18.04                        "/bin/bash"              4 months ago        Exited (255) 4 months ago                              gracious_payne
-67b406ba52e3        python:3.6                          "python3"                4 months ago        Exited (0) 4 months ago                                naughty_agnesi
-5f161f620599        ubuntu:18.04                        "/bin/bash"              4 months ago        Exited (127) 4 months ago                              practical_murdock
+
 
  ____    _____      _      ____    _____
 / ___|  |_   _|    / \    |  _ \  |_   _|
@@ -517,4 +457,16 @@ e079af1db8be        hyperledger/fabric-tools:latest     "/bin/bash"         3 mi
 85a9bbaf27e9        hyperledger/fabric-peer:latest      "peer node start"   3 minutes ago       Up 3 minutes        0.0.0.0:9051->9051/tcp     peer0.org2.example.com
 3d74742737c4        hyperledger/fabric-orderer:latest   "orderer"           3 minutes ago       Up 3 minutes        0.0.0.0:7050->7050/tcp     orderer.example.com
 
+
+(.py3) localhost:first-network play$ docker ps
+CONTAINER ID        IMAGE                                                                                                  COMMAND                  CREATED              STATUS              PORTS                      NAMES
+b10968689adb        dev-peer1.org2.example.com-mycc-1.0-26c2ef32838554aac4f7ad6f100aca865e87959c9a126e86d764c8d01f8346ab   "chaincode -peer.add…"   About a minute ago   Up About a minute                              dev-peer1.org2.example.com-mycc-1.0
+8181995b6cc9        dev-peer0.org1.example.com-mycc-1.0-384f11f484b9302df90b453200cfb25174305fce8f53f4e94d45ee3b6cab0ce9   "chaincode -peer.add…"   2 minutes ago        Up 2 minutes                                   dev-peer0.org1.example.com-mycc-1.0
+69cc3dd96788        dev-peer0.org2.example.com-mycc-1.0-15b571b3ce849066b7ec74497da3b27e54e0df1345daff3951b94245ce09c42b   "chaincode -peer.add…"   3 minutes ago        Up 3 minutes                                   dev-peer0.org2.example.com-mycc-1.0
+d6ad22ef018e        hyperledger/fabric-tools:latest                                                                        "/bin/bash"              4 minutes ago        Up 4 minutes                                   cli
+4ccaae9f2c98        hyperledger/fabric-orderer:latest                                                                      "orderer"                4 minutes ago        Up 4 minutes        0.0.0.0:7050->7050/tcp     orderer.example.com
+1065cfc09782        hyperledger/fabric-peer:latest                                                                         "peer node start"        4 minutes ago        Up 4 minutes        0.0.0.0:8051->8051/tcp     peer1.org1.example.com
+d6f7d7db321b        hyperledger/fabric-peer:latest                                                                         "peer node start"        4 minutes ago        Up 4 minutes        0.0.0.0:10051->10051/tcp   peer1.org2.example.com
+2110e1d48596        hyperledger/fabric-peer:latest                                                                         "peer node start"        4 minutes ago        Up 4 minutes        0.0.0.0:7051->7051/tcp     peer0.org1.example.com
+2f6ea0f773b3        hyperledger/fabric-peer:latest                                                                         "peer node start"        4 minutes ago        Up 4 minutes        0.0.0.0:9051->9051/tcp     peer0.org2.example.com
 ```

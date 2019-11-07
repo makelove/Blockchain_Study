@@ -61,14 +61,22 @@ c3817a367815: Pull complete
 Digest: sha256:fc11964a5201fc559bcee573e601753bf6218e35ded2f5259d86bc73cdc38976
 Status: Downloaded newer image for hyperledger/fabric-peer:latest
 
-(.py3) localhost:~ play$ docker images
-REPOSITORY                TAG                 IMAGE ID            CREATED             SIZE
-luminati/luminati-proxy   latest              6dc1a7a92aa4        2 months ago        1.38GB
-hyperledger/fabric-peer   latest              fa87ccaed0ef        2 months ago        179MB
-pyppeteer                 v1                  141e8005d18c        2 months ago        1.43GB
-play4fun/bt               v1                  d45f06cca8d7        4 months ago        132MB
-ubuntu                    18.04               4c108a37151f        4 months ago        64.2MB
-ubuntu                    latest              4c108a37151f        4 months ago        64.2MB
-python                    3.6                 48c06762acf0        4 months ago        924MB
+
+(.py3) pro:~ play$ docker images
+REPOSITORY                                                                                             TAG                 IMAGE ID            CREATED             SIZE
+dev-peer1.org2.example.com-mycc-1.0-26c2ef32838554aac4f7ad6f100aca865e87959c9a126e86d764c8d01f8346ab   latest              66772bb7901a        13 hours ago        162MB
+dev-peer0.org1.example.com-mycc-1.0-384f11f484b9302df90b453200cfb25174305fce8f53f4e94d45ee3b6cab0ce9   latest              c3a27eeb7f8a        13 hours ago        162MB
+dev-peer0.org2.example.com-mycc-1.0-15b571b3ce849066b7ec74497da3b27e54e0df1345daff3951b94245ce09c42b   latest              caa6388f1d0b        13 hours ago        162MB
+
+hyperledger/fabric-zookeeper                                                                           latest              ede9389347db        2 days ago          276MB
+hyperledger/fabric-kafka                                                                               latest              caaae0474ef2        2 days ago          270MB
+hyperledger/fabric-couchdb                                                                             latest              d369d4eaa0fd        2 days ago          261MB
+hyperledger/fabric-baseos                                                                              latest              c256a6aad46f        2 days ago          80.8MB
+hyperledger/fabric-tools                                                                               latest              18ed4db0cd57        2 months ago        1.55GB
+hyperledger/fabric-ca                                                                                  latest              c18a0d3cc958        2 months ago        253MB
+hyperledger/fabric-ccenv                                                                               latest              3d31661a812a        2 months ago        1.45GB
+hyperledger/fabric-orderer                                                                             latest              b666a6ebbe09        2 months ago        173MB
+hyperledger/fabric-peer                                                                                latest              fa87ccaed0ef        2 months ago        179MB
+hyperledger/fabric-baseos                                                                              amd64-0.4.15        9d6ec11c60ff        7 months ago        145MB
 ```
 
